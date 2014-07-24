@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <link href="simple.css" rel="stylesheet" type="text/css" media="all">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src='main.js'></script>
+  </head>
+  <body>
+    <h1>To Dos</h1>
+    <div id= "list" draggable="true" ondragstart="return dragStart(event)">
+    <ul>
+      <li id= "list-item1" draggable="true" ondragstart="return dragStart(event)">Laundry</li>
+      <li id= "list-item2" draggable="true" ondragstart="return dragStart(event)">Work out</li>
+      <li id= "list-item3" draggable="true" ondragstart="return dragStart(event)">Grocery shop</li>
+      <li id= "list-item4" draggable="true" ondragstart="return dragStart(event)">Clean bathroom</li>
+      <li id= "list-item5" draggable="true" ondragstart="return dragStart(event)">Take out trash</li>
+    </ul>
+    </div>
+
+    <div id="drop-zone-1" ondragenter="return dragEnter(event)" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+
+    <div id="drop-zone-2" ondragenter="return dragEnter(event)" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+
+
+  </body>
+</html>

@@ -1,0 +1,24 @@
+body {
+  margin: 0, auto;
+}
+
+#list {
+  height: 150px;
+  width: 150px;
+}
+
+#drop-zone-1 {
+  background-color: yellow;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  float: left;
+}
+
+#drop-zone-2 {
+  background-color: green;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  float: left;
+}
